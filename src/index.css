@@ -1,60 +1,92 @@
 :root,
 button {
-	font-family: 'Arial', sans-serif;
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 17px;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
 
-	color-scheme: light;
-	color: #000;
-	background-color: #fff;
+  color-scheme: light;
+  color: #000;
+  background-color: #fff;
 
-	font-synthesis: none;
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-text-size-adjust: 100%;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
 }
 
 ::-webkit-scrollbar-track {
-	background-color: transparent;
+  background-color: transparent;
 }
 
 ::-webkit-scrollbar {
-	width: 8px;
-	background-color: transparent;
+  width: 8px;
+  background-color: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-	background-color: #003c7c59;
-	border-radius: 9999px;
-	border: 2px solid #f3f3f3;
+  background-color: #003c7c59;
+  border-radius: 9999px;
+  border: 2px solid #f3f3f3;
 }
 
 * {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 
 li {
-	list-style: none;
+  list-style: none;
 }
 
 a {
-	color: inherit;
-	text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 @media (max-width: 1600px) {
-	:root {
-		font-size: 13px;
-	}
+  :root {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 1366px) {
-	:root {
-		font-size: 12px;
-	}
+  :root {
+    font-size: 12px;
+  }
+}
+
+.container {
+  display: none;
+}
+
+video::-webkit-media-controls {
+  display: none;
+}
+
+video::-webkit-media-controls-play-button {
+  display: none;
+}
+
+video::-webkit-media-controls-volume-slider {
+  display: none;
+}
+
+video::-webkit-media-controls-mute-button {
+  display: none;
+}
+
+video::-webkit-media-controls-timeline {
+  display: none;
+}
+
+video::-webkit-media-controls-current-time-display {
+  display: none;
+}
+
+#detach-button-host {
+  display: none;
 }

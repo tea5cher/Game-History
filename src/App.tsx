@@ -1,5 +1,11 @@
+import { MainPage } from "./Components";
+import { LoginPage } from "./Pages";
+
 function App() {
-  return <div>123</div>;
+  return (
+    // <LoginPage />
+    <MainPage />
+  );
 }
 
 export default App;
